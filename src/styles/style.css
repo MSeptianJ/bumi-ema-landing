@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -143,14 +143,71 @@ main {
 	object-fit: contain;
 }
 
-.main-hero-dec {
-	width: 100%;
+.main-hero-desc {
 	padding: 40px;
 	text-align: center;
 }
 
-.main-hero-dec h2 {
+.main-hero-desc h2 {
 	font-size: 18px;
 	font-weight: unset;
 	font-style: italic;
+}
+
+.main-misc {
+	margin: 20px auto 0;
+	padding: 20px;
+	background-color: #dfd3c3;
+}
+
+.main-misc article {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-misc article .main-misc-address,
+.main-misc article .main-misc-contacs,
+.main-misc article .main-misc-contacs-whatsapp,
+.main-misc article .main-misc-contacs-instagram {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-fasilitas {
+	width: 100%;
+	margin: 0;
+}
+
+.main-fasilitas h2 {
+	width: 100%;
+	margin: 40px auto 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+.main-fasilitas article {
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 0;
+	background-color: #d0b8a8;
+	text-align: center;
+}
+
+.main-fasilitas .main-fasilitas-ruangan,
+.main-fasilitas .main-fasilitas-peralatan,
+.main-fasilitas .main-fasilitas-lainlain {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-fasilitas h3 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
 }
