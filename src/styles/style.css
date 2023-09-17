@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 button {
@@ -46,8 +48,9 @@ header {
 }
 
 .header-nav-btn button img {
-	width: 100%;
-	height: 100%;
+	display: block;
+	margin: 0 auto;
+	width: 70%;
 }
 
 .header-logo {
@@ -72,6 +75,7 @@ header {
 }
 
 .header-nav nav ul {
+	padding-top: 50px;
 	width: 100%;
 	margin: 0 auto;
 	list-style: none;
@@ -80,6 +84,7 @@ header {
 .header-nav nav ul li {
 	margin: 0 auto;
 	background-color: #705a4c;
+	margin-bottom: 5px;
 }
 
 .header-nav nav ul li a {
@@ -89,6 +94,7 @@ header {
 	padding: 10px;
 	text-decoration: none;
 	cursor: pointer;
+	font-weight: 900;
 }
 
 .header-nav nav ul li a:hover {
@@ -101,4 +107,50 @@ header {
 	width: 70%;
 	height: 100vh;
 	background-color: transparent;
+}
+
+/* Main */
+
+main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.main-hero {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #d0b8a8;
+}
+
+.main-hero-img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.main-hero-img img {
+	display: block;
+	width: 100%;
+	object-fit: contain;
+}
+
+.main-hero-dec {
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+}
+
+.main-hero-dec h2 {
+	font-size: 18px;
+	font-weight: unset;
+	font-style: italic;
 }
