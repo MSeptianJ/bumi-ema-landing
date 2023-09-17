@@ -29,18 +29,6 @@ header {
 	text-align: center;
 }
 
-.header-nav {
-	display: none;
-	width: 30%;
-	height: 100vh;
-	top: 0;
-	left: 0;
-	position: absolute;
-	margin: 0;
-	padding: 20px;
-	background-color: rgba(208, 184, 168, 0.7);
-}
-
 .header-nav-btn {
 	flex-basis: 1;
 	width: 10%;
@@ -65,4 +53,52 @@ header {
 .header-logo {
 	width: 90%;
 	flex-basis: 2;
+}
+
+.header-nav {
+	display: none;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.header-nav nav {
+	width: 40%;
+	height: 100vh;
+	margin: 0;
+	background-color: rgba(208, 184, 168, 0.7);
+	text-align: left;
+}
+
+.header-nav nav ul {
+	width: 100%;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.header-nav nav ul li {
+	margin: 0 auto;
+	background-color: #705a4c;
+}
+
+.header-nav nav ul li a {
+	display: block;
+	margin: 0;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.header-nav nav ul li a:hover {
+	background-color: #d0b8a8;
+	color: #705a4c;
+}
+
+.header-nav .nav-back {
+	margin: 0;
+	width: 70%;
+	height: 100vh;
+	background-color: transparent;
 }
