@@ -407,4 +407,16 @@ footer {
 		grid-template-columns: 1fr 1fr;
 		gap: 20px;
 	}
+
+	.main-alamat article {
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		gap: 0;
+	}
+
+	.main-alamat .main-alamat-desc {
+		text-align: left;
+		font-size: 20px;
+	}
 }
