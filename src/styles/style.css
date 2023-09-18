@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 button {
 	all: unset;
 }
@@ -309,6 +313,7 @@ aside .aside-img img {
 	display: block;
 	width: 50%;
 	margin: 0 auto;
+	max-width: 150px;
 }
 
 aside .aside-desc {
@@ -427,5 +432,26 @@ footer {
 
 	.main-peraturan article div ul {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	aside {
+		flex-direction: row;
+		gap: 0px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.main-hero {
+		justify-content: space-between;
+	}
+
+	.main-hero-img {
+		width: 40%;
+		margin: 0;
+		justify-content: space-evenly;
+	}
+
+	.main-hero-desc {
+		text-align: left;
 	}
 }
