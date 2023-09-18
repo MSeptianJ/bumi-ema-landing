@@ -397,4 +397,14 @@ footer {
 		font-size: 14px;
 		gap: 10px;
 	}
+
+	.main-fasilitas h3 {
+		text-align: left;
+		margin-left: 4em;
+	}
+
+	.main-fasilitas-list {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
 }
