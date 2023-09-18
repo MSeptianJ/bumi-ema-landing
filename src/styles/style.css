@@ -382,10 +382,19 @@ footer {
 	.main-hero-img {
 		margin: 20px 0;
 		width: 65%;
-		height: 80%;
 	}
 
 	.main-hero-desc {
 		padding: 20px;
+	}
+
+	.main-misc {
+		padding: 10px;
+	}
+
+	.main-misc article {
+		flex-direction: row-reverse;
+		font-size: 14px;
+		gap: 10px;
 	}
 }
