@@ -419,4 +419,13 @@ footer {
 		text-align: left;
 		font-size: 20px;
 	}
+
+	.main-peraturan h3 {
+		text-align: left;
+		margin-left: 3em;
+	}
+
+	.main-peraturan article div ul {
+		grid-template-columns: 1fr 1fr;
+	}
 }
