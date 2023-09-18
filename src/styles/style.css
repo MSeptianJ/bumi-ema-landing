@@ -274,3 +274,18 @@ main {
 	gap: 20px;
 	font-weight: 600;
 }
+
+.main-peraturan article div {
+	width: 80%;
+	margin: 0 auto;
+	padding: 25px 10px;
+	background-color: #f4b489;
+}
+
+.main-peraturan article div ul {
+	width: 100%;
+	text-align: left;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
