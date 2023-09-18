@@ -413,6 +413,10 @@ footer {
 		gap: 20px;
 	}
 
+	.main-fasilitas-list-item {
+		padding: 10px;
+	}
+
 	.main-alamat article {
 		grid-template-columns: 1fr 1fr;
 		justify-items: center;
@@ -453,5 +457,9 @@ footer {
 
 	.main-hero-desc {
 		text-align: left;
+	}
+
+	.main-fasilitas-list {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
