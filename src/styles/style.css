@@ -269,6 +269,10 @@ main {
 	width: 100%;
 }
 
+.main-alamat article .main-alamat-map img {
+	width: 60%;
+}
+
 .main-alamat article .main-alamat-desc {
 	width: 60%;
 	display: flex;
@@ -288,7 +292,7 @@ main {
 	text-align: left;
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 15px;
+	gap: 10px 0;
 }
 
 aside {
@@ -433,8 +437,13 @@ footer {
 		margin-left: 3em;
 	}
 
+	.main-peraturan article div {
+		width: 90%;
+	}
+
 	.main-peraturan article div ul {
 		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 	}
 
 	aside {
